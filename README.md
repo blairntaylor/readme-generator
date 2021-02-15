@@ -1,33 +1,28 @@
-App title
+## 09 Homework README Generator
 
-License Badge: MIT Copyright (c) [Year] [Fullname]
+License Badge: MIT Copyright (c) [2021] [Blair Taylor]"
 
-## [Description](#description)
-## [Installation](#installation)
-## [Usage](#usage)
-## [Contributing](#contribute)
-## [Tests](#tests)
+Create command-line application invoked using node index.js.
 
-## Description
-This is the app description
+Application prompts user to enter information about app title, description, use, installation, how to contribute and note errors, and contact information.
 
-## Installation
-This is how you install the app.
+## App packages include:
 
-## Usage
-These are the instructions.
+File system, Inquirer
 
-## Contributing
-This is how you contribute.
+## Files include
 
-## Tests
-This is how your report errors.
+.gitignore, package.json, node modules
 
-## Screenshot
+## Contact
 
-## License
-This project is licensed to: MIT Copyright (c) [Year] [Fullname]
-
-## Questions
 GitHub username: blairntaylor
 Email address: [blairntaylor@gmail.com](mailto:blairntaylor@gmail.com)
+
+## Video Link
+
+(https://drive.google.com/file/d/1yy9E0nLi325MhWqR9VNzA5Z_PAI0VcVV/view)
+
+## Screenshot of sample README
+
+(./screenshot.png)

@@ -1,6 +1,6 @@
-App Title
+App title
 
-License Badge: MIT
+License Badge: MIT Copyright (c) [Year] [Fullname]
 
 ## [Description](#description)
 
@@ -14,7 +14,7 @@ License Badge: MIT
 
 ## Description
 
-This is the app description.
+This is the app description
 
 ## Installation
 
@@ -26,19 +26,19 @@ These are the instructions.
 
 ## Contributing
 
-This is how you can contribute.
+This is how you contribute.
 
 ## Tests
 
-This is how to report errors.
+This is how your report errors.
 
 ## Screenshot
 
 ## License
 
-This project is licensed to: MIT
+This project is licensed to: MIT Copyright (c) [Year] [Fullname]
 
 ## Questions
 
-GitHub username: usernamegithub
+GitHub username: blairntaylor
 Email address: [blairntaylor@gmail.com](mailto:blairntaylor@gmail.com)
