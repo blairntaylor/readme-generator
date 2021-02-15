@@ -1,33 +1,25 @@
-App Title
-
-License Badge: MIT
-
-## [Description](#description)
-## [Installation](#installation)
-## [Usage](#usage)
-## [Contributing](#contribute)
-## [Tests](#tests)
+09 Homework README Generator
 
 ## Description
-This is the app description.
 
-## Installation
-This is how you install the app.
+First, installed npm packages with node.js for file system and inquirer.
 
-## Usage
-These are the instructions.
+To invoke app use 'node index.js' in when terminal.
 
-## Contributing
-This is how you can contribute.
+The user is prompted with questions about there app, the responses are compiled into a README file generator. The questions include, the title, description, license, how to install, how to use, how to contribute, how to report errors, and contact information.
 
-## Tests
-This is how to report errors.
+A sample README file has been included using generaic information.
+
+Files included include: .gitignore, node modules, package.json
+
+## Link to video
+
+https://drive.google.com/file/d/1yy9E0nLi325MhWqR9VNzA5Z_PAI0VcVV/view
 
 ## Screenshot
 
-## License
-This project is licensed to: MIT
+![Screenshot](./screenshot.png)
 
-## Questions
-GitHub username: usernamegithub
-Email address: [blairntaylor@gmail.com](mailto:blairntaylor@gmail.com)
+## Challenges
+
+Once the user prompts and input was collected getting the responses to be returned into the README format was challenging.
