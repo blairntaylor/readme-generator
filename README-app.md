@@ -1,47 +1,23 @@
-<!-- # 09 Homework README Generator
+09 Homework README Generator
 
-## TO DOs in Advance
+## Description
 
-1. Create repo
-2. add const fs and const inquirer in the index.js
-3. do a npm init -y
-4. do an npm i inquirer --save for the node modules
- -->
+First, installed npm packages with node.js for file system and inquirer.
 
-    const ReadMe = `${title}
-        License Badge: ${license}
+To invoke app use 'node index.js' in when terminal.
 
-        ##Table of Contents
-        ##Description
-        ## Installation
-        ##Usage
-        ##Contributing
-        ##Tests
-        ##License
-        ##Questions
+The user is prompted with questions about there app, the responses are compiled into a README file generator. The questions include, the title, description, license, how to install, how to use, how to contribute, how to report errors, and contact information.
 
-        ##Description
-        ${description}
+A sample README file has been included using generaic information.
 
-        ## Installation
-        ${installation}
+Files included include: .gitignore, node modules, package.json
 
-        ##Usage
-        ${usage}
+## Link to video
 
-        ##Contributing
-        ${contribute}
+https://drive.google.com/file/d/1yy9E0nLi325MhWqR9VNzA5Z_PAI0VcVV/view
 
-        ##Tests
-        ${tests}
+## Screenshot
 
-        ##Screenshot
+## Challenges
 
-        ##License
-        ${license}
-
-        ##Questions
-        GitHub username: ${github}
-        Email address: ${email}
-
-        `;
+Once the user prompts and input was collected getting the responses to be returned into the README format was challenging.

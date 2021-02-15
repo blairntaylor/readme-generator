@@ -1,8 +1,9 @@
-// TODO: Include packages needed for this application
+// file system and inquirer packages needed for this app
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-// TODO: Create a function to initialize app
+// function to initialize app
+// includes prompts collecting info
 function init() {
   inquirer
     .prompt([
@@ -37,7 +38,6 @@ function init() {
         name: "tests",
       },
       {
-        //what type of license, appears at top, add a badge
         type: "list",
         message: "What type of license?",
         name: "license",
@@ -54,8 +54,10 @@ function init() {
         name: "email",
       },
     ])
-    .then(
-      ({
+    // promise method
+    // calling answers, and function to create template
+    .then((answers) => {
+      const {
         title,
         description,
         installation,
@@ -65,55 +67,56 @@ function init() {
         license,
         github,
         email,
-      }) => {
-        const template = `${title}
+      } = answers;
 
-          License Badge: ${license}
+      // template layout
+      const template = `${title}
 
-          [## Description]
-          [## Installation]
-          [## Usage]
-          [## Contributing]
-          [## Tests]
+License Badge: ${license}
 
-          ## Description
-          ${description}
+## [Description](#description)
+## [Installation](#installation)
+## [Usage](#usage)
+## [Contributing](#contribute)
+## [Tests](#tests)
 
-          ## Installation
-          ${installation}
+## Description
+${description}
 
-          ##Usage
-          ${usage}
+## Installation
+${installation}
 
-          ##Contributing
-          ${contribute}
+## Usage
+${usage}
 
-          ##Tests
-          ${tests}
+## Contributing
+${contribute}
 
-          ##Screenshot
+## Tests
+${tests}
 
-          ##License
-          ${license}
+## Screenshot
 
-          ##Questions
-          GitHub username: ${github}
-          Email address: ${email}`;
-        //calling function
-        writeFile(title, template);
-      }
-    );
-  //function to write file
+## License
+This project is licensed to: ${license}
+
+## Questions
+GitHub username: ${github}
+Email address: [${email}](mailto:${email})`;
+      // calling writeFile function
+      writeFile(title, template);
+    });
+  //function to writeFile creating new README, using template info and console log error data
   function writeFile(fileName, template) {
     fs.writeFile("README.md", template, (err, data) => {
       if (err) {
         console.log(err);
       } else {
-        console.log("README generated.", template);
+        console.log("README generated.");
       }
     });
   }
 }
 
-// Function call to initialize app
+// initialing function being called
 init();

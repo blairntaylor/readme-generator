@@ -1,33 +1,33 @@
-kljhkjhdsf
+App Title
 
-          License Badge: MIT
+License Badge: MIT
 
-          [## Description]
-          [## Installation]
-          [## Usage]
-          [## Contributing]
-          [## Tests]
+## [Description](#description)
+## [Installation](#installation)
+## [Usage](#usage)
+## [Contributing](#contribute)
+## [Tests](#tests)
 
-          ## Description
-          djfsdkjfhskjdfh
+## Description
+This is the app description.
 
-          ## Installation
-          sdkjfhskdjfh
+## Installation
+This is how you install the app.
 
-          ##Usage
-          sdkfjsdkjfh
+## Usage
+These are the instructions.
 
-          ##Contributing
-          sdkjfhskdjfh
+## Contributing
+This is how you can contribute.
 
-          ##Tests
-          sdkjfhsdkjfh
+## Tests
+This is how to report errors.
 
-          ##Screenshot
+## Screenshot
 
-          ##License
-          MIT
-          
-          ##Questions
-          GitHub username: dskjfhksdjfh
-          Email address: kldshflksdhf
+## License
+This project is licensed to: MIT
+
+## Questions
+GitHub username: usernamegithub
+Email address: [blairntaylor@gmail.com](mailto:blairntaylor@gmail.com)
