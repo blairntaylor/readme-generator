@@ -41,7 +41,12 @@ function init() {
         type: "list",
         message: "What type of license?",
         name: "license",
-        choices: ["MIT", "GNU", "Apache", "ISC"],
+        choices: [
+          "MIT Copyright (c) [Year] [Fullname]",
+          "GNU [Company], hereby disclaims all copyright interest in the program [Program Name] written by [Fullname].",
+          "Apache Copyright [Year] [Fullname]",
+          "ISC Copyright (c) [Year], [Fullname]",
+        ],
       },
       {
         type: "input",
